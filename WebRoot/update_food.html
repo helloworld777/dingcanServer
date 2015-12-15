@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>系统登录</title>
+
+<link href="css/login.css" rel="stylesheet" rev="stylesheet" type="text/css" media="all" />
+
+
+
+
+
+
+
+</script>
+
+
+</head>
+
+<body>
+
+
+<div class="login-aside">
+  <div id="o-box-up"></div>
+  <div id="o-box-down"  >
+  
+   
+   <form class="registerform"action="demo/ajax_post.jsp">
+   <div class="fm-item">
+	   <label for="logonId" class="form-label">食品名称</label>
+	   <input type="text" value="输入账号" maxlength="100" id="username" class="i-text" ajaxurl="demo/valid.jsp"  datatype="s6-18" errormsg="用户名至少6个字符,最多18个字符！"  >    
+       <div class="ui-form-explain"></div>
+  </div>
+  
+  <div class="fm-item">
+	   <label for="logonId" class="form-label">食品价格：</label>
+	   <input type="password" value="" maxlength="100" id="password" class="i-text" datatype="*6-16" nullmsg="请设置密码！" errormsg="密码范围在6~16位之间！">    
+       <div class="ui-form-explain"></div>
+  </div>
+  <div class="fm-item">
+	   <label for="logonId" class="form-label">折扣：</label>
+	   <input type="password" value="" maxlength="100" id="password" class="i-text" datatype="*6-16" nullmsg="请设置密码！" errormsg="密码范围在6~16位之间！">    
+       <div class="ui-form-explain"></div>
+  </div>
+  
+   <div class="fm-item">
+	   <label for="logonId" class="form-label">售价：</label>
+	   <input type="password" value="" maxlength="100" id="password" class="i-text" datatype="*6-16" nullmsg="请设置密码！" errormsg="密码范围在6~16位之间！">    
+       <div class="ui-form-explain"></div>
+  </div>
+ <div class="fm-item">
+	   <label for="logonId" class="form-label">图片：</label>
+		<img src="">
+       <div class="ui-form-explain"></div>
+  </div>
+  
+  <div class="fm-item">
+	   <label for="logonId" class="form-label"></label>
+	   <input type="submit" value="" tabindex="4" id="send-btn" class="btn-login"> 
+       <div class="ui-form-explain"></div>
+  </div>
+ 
+  </form>
+  
+  </div>
+
+</div>
+
+	
+
+
+
+</body>
+</html>
